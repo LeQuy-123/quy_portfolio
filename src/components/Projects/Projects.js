@@ -30,22 +30,26 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              isApp={true}
               imgPath={era}
               isBlog={false}
               title="Bits-0f-C0de"
               description={`Education App help children understand their body, protect themselves against the risk of abuse, 
-                respect themselves and others. Have feature like quiz, watch video, reading news, and many more. (Also available in IOS)`}
-              link="https://play.google.com/store/apps/details?id=com.boot.era&hl=vi&gl=US"
+                respect themselves and others. Have feature like quiz, watch video, reading news, and many more.`}
+              linkAndroid="https://play.google.com/store/apps/details?id=com.boot.era&hl=vi&gl=US"
+              linkIos="https://apps.apple.com/us/app/giáo-dục-giới-t%C3%ADnh-era/id1487067017"
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              isApp={true}
               imgPath={eca}
               isBlog={false}
               title="ECA"
               description={`eCar Service App helps auto repair shops increase their revenue by connecting them with new in-demand customers in a timely & efficient manner without incurring significant customer-acquisition cost. 
               Plus, eCar Service provides communication & services tools to further satisfy customers & build brand loyalty. (Also available in IOS)`}
-              link="https://play.google.com/store/apps/details?id=com.ecaraid.ecaservice&hl=vi&gl=US"
+              linkAndroid="https://play.google.com/store/apps/details?id=com.ecaraid.ecaservice&hl=vi&gl=US"
+              linkIos="https://apps.apple.com/us/app/eca-service/id1613345342"
             />
           </Col>
         </Row>

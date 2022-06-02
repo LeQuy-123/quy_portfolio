@@ -6,7 +6,8 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-
+import Lottie from "lottie-react";
+import animtion from "../../Assets/Lottie/101820-mobile-app-showcase.json";
 function About() {
   return (
     <Container fluid className="about-section">
@@ -28,10 +29,10 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            style={{ paddingTop: "10px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <Lottie className="img-fluid" animationData={animtion} />
           </Col>
         </Row>
         <h1 className="project-heading">
